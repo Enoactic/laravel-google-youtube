@@ -1,0 +1,22 @@
+{
+    "name": "enoactic/laravel-google-youtube",
+    "description": "",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Boonyaphat Intasin",
+            "email": "aosmosiss-ze@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "LaravelGoogleYoutube\\": "src/LaravelGoogleYoutube"
+        }
+    },
+    "require": {
+        "php": ">=7.1.33",
+        "google/apiclient": "^2.0"
+    }
+}
